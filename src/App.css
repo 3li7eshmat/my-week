@@ -1,0 +1,43 @@
+.timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.habits {
+  padding: 50px;
+  border-right: 2px solid #eee;
+  flex-basis: 50%;
+}
+
+.habit {
+  padding: 20px;
+  width: 100%;
+  border: 1px solid #eee;
+}
+
+.habit h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--red-color);
+  background-color: #00968826;
+  border: 1px solid var(--blue-color);
+  padding: 20px 0;
+}
+
+.habit .checkboxes {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tasks {
+
+}
